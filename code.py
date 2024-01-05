@@ -1,3 +1,4 @@
+
 import matplotlib.pyplot as plt
 
 def greet():
@@ -29,6 +30,8 @@ def chat():
             max_marks[subject] = max_mark
 
         plot_combined_graph(subjects, all_marks, max_marks)
+
+        # TensorFlow model training can be added here for more advanced chatbot functionalities
 
     except ValueError:
         print("Oops! Something went wrong. Please enter valid numbers and marks.")
